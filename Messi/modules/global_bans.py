@@ -260,9 +260,9 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Muichiro will keep him/her Away! from your chats.", parse_mode=ParseMode.HTML)
+        message.reply_text("Done! I will keep him/her Away! from your chats.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Muichiro already assasinated the user.", parse_mode=ParseMode.HTML)
+        message.reply_text("Done! I already assasinated the user.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
