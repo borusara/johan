@@ -6,7 +6,7 @@ from Messi.events import register
 from Messi import telethn as tbot
 
 
-PHOTO = "https://te.legra.ph/file/1c669652caf94443689ca.jpg"
+PHOTO = "https://graph.org//file/89dfbf72150775f0daae8.jpg"
 
 @register(pattern=("/bancodes"))
 async def awake(event):
