@@ -81,17 +81,17 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/17d36ef59d39e5f668821.mp4" 
+GROUP_START_IMG = "https://graph.org//file/d76161cd86354b3f617db.mp4" 
     
     
 PM_START_TEXT = """
 *Hello {} !*
-🗡 I'm *Muichiro Tokito* an anime themed group management bot [☕](https://te.legra.ph//file/245f837984208db872744.jpg)
+👀 I'm *Johan Liebert* an anime themed group management bot [☕](https://graph.org//file/0bcaf430c2f305934278f.jpg)
 ────────────────────────
 × * Subject Uptime:* `{}`
 × `{}` *users, across* `{}` *Groups.*
 ────────────────────────
-🔗 Use /help to know my abilities.
+🔗 Spank/help to know my abilities.
 """
 
 buttons = [
@@ -101,12 +101,12 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Join Hashira !", url=f"https://t.me/hashira_association"
+            text="Join My network !", url=f"https://t.me/Humans_are_here"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="+  Add Me To Your Group +", url=f"t.me/Tokito_Muichiro_robot?startgroup=new"),
+            text="+  Add Me To Your Group +", url=f"https://t.me/johan_liebert_probot?startgroup=new"),
     ],
 ]
 
@@ -377,7 +377,7 @@ def messi_about_callback(update, context):
     query = update.callback_query
     if query.data == "messi_":
         query.message.edit_text(
-            text=f"๏ I'm *Muichiro Tokito*, a powerful anime themed group management bot built to help you manage your group easily."
+            text=f"๏ I'm *Johan Liebert*, a powerful anime themed group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -456,17 +456,17 @@ def messi_about_callback(update, context):
 
     elif query.data == "messi_credit":
         query.message.edit_text(
-            text=f"๏ Credis for *Muichiro*\n"
-            "\nHere Are The Developers Who Made And Gave Inspiration For The Muichiro A.I",
+            text=f"๏ Credis for *Johan*\n"
+            "\nHere Are The Developers Who Made And Gave Inspiration For the Jojan A.I",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="H A S H I R A", url="https://github.com/PrimexRick"
+                            text="K N I G H T S", url="https://github.com/Borusara"
                         ),
                         InlineKeyboardButton(
-                            text="H A S H I R A (telegram)", url="https://t.me/Hashira_Association"
+                            text="K N I G H T S (telegram)", url="https://t.me/Hashira_Association"
                         ),
                     ],
                     [
@@ -547,7 +547,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/Tokito_Muichiro_robot?start=help".format(context.bot.username),
+                            url="t.me/johan_liebert_probot?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -788,7 +788,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[🗿](https://graph.org//file/a654765a71cdef6010adc.jpg) yo !, [Muichiro](https://t.me/Tokito_Muichiro_robot) is back alive. ",
+                "[🗿](https://graph.org//file/20433e7f62d68a3a1854f.jpg) hey! [I](https://t.me/johan_liebert_probot) Came back from my grave. ",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
