@@ -466,7 +466,7 @@ def messi_about_callback(update, context):
                             text="K N I G H T S", url="https://github.com/Borusara"
                         ),
                         InlineKeyboardButton(
-                            text="K N I G H T S (telegram)", url="https://t.me/Hashira_Association"
+                            text="K N I G H T S (telegram)", url="https://t.me/knights_x_association"
                         ),
                     ],
                     [
