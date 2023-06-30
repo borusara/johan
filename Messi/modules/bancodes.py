@@ -10,8 +10,8 @@ PHOTO = "https://graph.org//file/89dfbf72150775f0daae8.jpg"
 
 @register(pattern=("/bancodes"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Shoushuke Komi** \n\n"
-  TEXT += "🗡 **Here are bancodes for [Johan Liebert](https://t.me/shoushuke_komi_bot)** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Johan Liebert** \n\n"
+  TEXT += "🗡 **Here are bancodes for [Johan Liebert](https://t.me/Johan_Liebert_Probot)** \n\n"
   TEXT += f"🗡 **My Masters : [Primes Team](https://t.me/PrimesDivision)** \n\n"
   TEXT += f"🗡 **Abuse**  \n\n"
   TEXT += f"🗡 **Mass Add**  \n\n"
